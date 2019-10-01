@@ -33,4 +33,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - removed templated files
 - setting up the router - installed `react-router-dom` & `history` packages. Added 2 files to routes folder. One is for history and another is for the routes. In routes we will import all components that our App will be using.
--
+- designed folder structure
