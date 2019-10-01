@@ -1,11 +1,13 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
+import Dashboard from '../pages/Dashboard';
+import Error from '../pages/Error';
 
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path='/' component={<div>laba diena</div>} />
-      <Route exact path='/error' component={<div>This is error page</div>} />
+      <Route exact path='/' component={Dashboard} />
+      <Route exact path='/error' component={Error} />
       <Route render={() => <Redirect to={{ pathname: '/error' }} />} />
     </Switch>
   );
